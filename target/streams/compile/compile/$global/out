@@ -1,0 +1,405 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Provider.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/NodeType.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/NamespaceContextMap.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Coding.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Period.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/InstantImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/ResourceType.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/ResourceReference.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlComposer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomEntry.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/NodeType.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/AtomParser.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirClientException.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/XmlComposerBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Uri.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/XmlParserBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriterStateStack.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/XmlBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Id.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/JsonParserBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlGenerator.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Instant.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlDocument.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Narrative.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/TextFile.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlNode.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Identifier.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriterState.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlUtilities.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/UriImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Type.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirSimpleClient.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Code.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/XmlTokenizer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonArray.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlConstants.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonObject.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Patient.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Oid.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomFeed.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/ParserBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/AtomComposer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Image.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XhtmlGenerator.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/FHIRResourceDictionary.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirClients.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanId.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Language.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/ElementImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/CarePlan.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomEntryImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/Xml.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriterImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlParser.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/CarePlanImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonWriter.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/ProviderImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonException.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Base64Binary.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/CodingConcept.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Base64BinaryImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonGenerator.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonString.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/ResourceImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Demographics.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonTokenizer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Resource.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Element.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Utilities.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/JsonComposer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriter.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/IdImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XhtmlGeneratorAdorner.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirClient.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomFeedImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlNamespace.java)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Provider.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/NodeType.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/NamespaceContextMap.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Coding.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Period.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/InstantImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/ResourceType.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/ResourceReference.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlComposer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomEntry.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/NodeType.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/AtomParser.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirClientException.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/XmlComposerBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Uri.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/XmlParserBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriterStateStack.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/XmlBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Id.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/JsonParserBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlGenerator.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Instant.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlDocument.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Narrative.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/TextFile.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlNode.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Identifier.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriterState.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlUtilities.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/UriImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Type.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirSimpleClient.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Code.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/XmlTokenizer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonArray.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlConstants.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonObject.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Patient.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Oid.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomFeed.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/ParserBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/AtomComposer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Image.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XhtmlGenerator.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/FHIRResourceDictionary.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirClients.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanId.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Language.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/ElementImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/CarePlan.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomEntryImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/Xml.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriterImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlParser.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/CarePlanImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonWriter.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/ProviderImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonException.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Base64Binary.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/CodingConcept.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Base64BinaryImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonGenerator.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonString.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/ResourceImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Demographics.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonTokenizer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Resource.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Element.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Utilities.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/JsonComposer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriter.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/IdImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XhtmlGeneratorAdorner.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirClient.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomFeedImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlNamespace.java)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mInitially invalidated: Set(/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Provider.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/NodeType.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/NamespaceContextMap.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Coding.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Period.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/InstantImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/ResourceType.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/ResourceReference.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlComposer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomEntry.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/NodeType.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/AtomParser.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirClientException.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/XmlComposerBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Uri.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/XmlParserBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriterStateStack.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/XmlBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Id.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/JsonParserBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlGenerator.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Instant.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlDocument.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Narrative.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/TextFile.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlNode.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Identifier.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriterState.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlUtilities.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/UriImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Type.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirSimpleClient.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Code.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/XmlTokenizer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonArray.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlConstants.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonObject.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Patient.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Oid.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomFeed.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/ParserBase.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/AtomComposer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Image.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XhtmlGenerator.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/FHIRResourceDictionary.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirClients.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanId.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Language.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/ElementImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/CarePlan.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomEntryImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/Xml.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriterImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlParser.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/CarePlanImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonWriter.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/ProviderImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonException.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Base64Binary.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/CodingConcept.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Base64BinaryImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonGenerator.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonString.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/ResourceImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Demographics.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonTokenizer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Resource.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Element.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Utilities.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/JsonComposer.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriter.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/IdImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XhtmlGeneratorAdorner.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirClient.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomFeedImpl.java, /Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlNamespace.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 79 sources: invalidated sources (79) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 79 Java sources to /Users/502065961/Development/phmhealth/phm/phm_platform/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mCalling Javac with arguments:[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/target/scala-2.10/classes:/Users/502065961/Development/play/play-2.1.0/framework/sbt/boot/scala-2.10.0/lib/scala-library.jar:/Users/502065961/Development/play/play-2.1.0/framework/sbt/boot/scala-2.10.0/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirClient.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirClientException.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirClients.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/controllers/FhirSimpleClient.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/AtomComposer.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/AtomParser.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/JsonComposer.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/JsonParserBase.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/ParserBase.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/XmlBase.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/XmlComposerBase.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/formats/XmlParserBase.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomEntry.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomEntryImpl.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomFeed.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/AtomFeedImpl.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/CarePlan.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/CarePlanImpl.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Demographics.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Id.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/IdImpl.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Instant.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/InstantImpl.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Language.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Narrative.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Oid.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Patient.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Period.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Provider.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/ProviderImpl.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Resource.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/ResourceImpl.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Code.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Coding.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/CodingConcept.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Element.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/ElementImpl.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/FHIRResourceDictionary.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanId.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Identifier.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Image.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/NodeType.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/ResourceReference.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/ResourceType.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Type.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Base64Binary.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Base64BinaryImpl.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/TextFile.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Uri.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/UriImpl.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/Utilities.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonArray.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonException.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonGenerator.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonObject.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonString.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonTokenizer.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/JsonWriter.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/Xml.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/json/XmlTokenizer.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/NodeType.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlComposer.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlConstants.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlDocument.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlNode.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xhtml/XhtmlParser.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/NamespaceContextMap.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XhtmlGenerator.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XhtmlGeneratorAdorner.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlGenerator.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlNamespace.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlUtilities.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriter.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriterImpl.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriterState.java[0m
+[0m[[0mdebug[0m] [0m	/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/utilities/xml/XmlWriterStateStack.java[0m
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/CarePlan.java:29: ';' expected[0m
+[0m[[31merror[0m] [0m	public String getGoal()[0m
+[0m[[31merror[0m] [0m	                       ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:8: = expected[0m
+[0m[[31merror[0m] [0m	protected ContactSystem system; //What kind of contact this is - what communications system is required to make use of the contact[0m
+[0m[[31merror[0m] [0m	                              ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:9: = expected[0m
+[0m[[31merror[0m] [0m	protected ContactUse use; //The actual contact details, in a form that is meaningful to the designated communication system (i.e. phone number or email address).[0m
+[0m[[31merror[0m] [0m	                        ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:10: = expected[0m
+[0m[[31merror[0m] [0m	private String value; //Identifies the context for the address[0m
+[0m[[31merror[0m] [0m	                    ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:11: = expected[0m
+[0m[[31merror[0m] [0m	private Period period; //Time period when the contact was/is in use[0m
+[0m[[31merror[0m] [0m	                     ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:14: ',', '}', or ';' expected[0m
+[0m[[31merror[0m] [0m	    ContactSystemPhone = 1, //The value is a telephone number used for voice calls. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required.[0m
+[0m[[31merror[0m] [0m	                       ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:14: '}' expected[0m
+[0m[[31merror[0m] [0m	    ContactSystemPhone = 1, //The value is a telephone number used for voice calls. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required.[0m
+[0m[[31merror[0m] [0m	                        ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:15: <identifier> expected[0m
+[0m[[31merror[0m] [0m	    ContactSystemFax, //The value is a fax machine. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required.[0m
+[0m[[31merror[0m] [0m	                    ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:15: ';' expected[0m
+[0m[[31merror[0m] [0m	    ContactSystemFax, //The value is a fax machine. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required.[0m
+[0m[[31merror[0m] [0m	                     ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:16: illegal start of type[0m
+[0m[[31merror[0m] [0m	    ContactSystemEmail, //The value is an email address[0m
+[0m[[31merror[0m] [0m	                      ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:18: = expected[0m
+[0m[[31merror[0m] [0m	};[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:21: ',', '}', or ';' expected[0m
+[0m[[31merror[0m] [0m	    ContactUseHome = 1, //A communication contact at a home; attempted contacts for business purposes might intrude privacy and chances are one will contact family or other household members instead of the person one wishes to call. Typically used with urgent cases, or if no other contacts are available.[0m
+[0m[[31merror[0m] [0m	                   ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:21: '}' expected[0m
+[0m[[31merror[0m] [0m	    ContactUseHome = 1, //A communication contact at a home; attempted contacts for business purposes might intrude privacy and chances are one will contact family or other household members instead of the person one wishes to call. Typically used with urgent cases, or if no other contacts are available.[0m
+[0m[[31merror[0m] [0m	                    ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:22: <identifier> expected[0m
+[0m[[31merror[0m] [0m	    ContactUseWork, //An office contact. First choice for business related contacts during business hours.[0m
+[0m[[31merror[0m] [0m	                  ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:22: ';' expected[0m
+[0m[[31merror[0m] [0m	    ContactUseWork, //An office contact. First choice for business related contacts during business hours.[0m
+[0m[[31merror[0m] [0m	                   ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:23: illegal start of type[0m
+[0m[[31merror[0m] [0m	    ContactUseTemp, //A temporary contact. The period can provide more detailed information.[0m
+[0m[[31merror[0m] [0m	                  ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:24: = expected[0m
+[0m[[31merror[0m] [0m	    ContactUseOld, //This contact is no longer in use (or was never correct, but retained for records)[0m
+[0m[[31merror[0m] [0m	                 ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Contact.java:26: = expected[0m
+[0m[[31merror[0m] [0m	};[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Demographics.java:10: = expected[0m
+[0m[[31merror[0m] [0m	private ArrayList name; //A name associated with the individual. Array of "HumanName" in case name has changed over time.[0m
+[0m[[31merror[0m] [0m	                      ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Demographics.java:11: = expected[0m
+[0m[[31merror[0m] [0m	private ArrayList telecom; //A contact detail (e.g. a telephone number or an email address) by which the individual may be contacted. Array of "Contact" in case multiple forms of contact. [0m
+[0m[[31merror[0m] [0m	                         ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Demographics.java:12: = expected[0m
+[0m[[31merror[0m] [0m	private Coding gender; //Administrative Gender - the gender that the patient is considered to have for administration / record keeping purposes[0m
+[0m[[31merror[0m] [0m	                     ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Demographics.java:13: = expected[0m
+[0m[[31merror[0m] [0m	private Date birthDate; //The birth date for the individual, to the degre of precision now[0m
+[0m[[31merror[0m] [0m	                      ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Demographics.java:14: = expected[0m
+[0m[[31merror[0m] [0m	private boolean deceased; //Indicates if the individual is deceased or not	[0m
+[0m[[31merror[0m] [0m	                        ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Demographics.java:15: = expected[0m
+[0m[[31merror[0m] [0m	private ArrayList address; //One or more addresses for the individual[0m
+[0m[[31merror[0m] [0m	                         ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Demographics.java:16: = expected[0m
+[0m[[31merror[0m] [0m	private CodeableConcept maritalStatus; //This field contains a patient's marital (civil) status.[0m
+[0m[[31merror[0m] [0m	                                     ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Demographics.java:17: = expected[0m
+[0m[[31merror[0m] [0m	private ArrayList language; //A language spoken by the person, with proficiency. Array contains Languages only[0m
+[0m[[31merror[0m] [0m	                          ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:11: = expected[0m
+[0m[[31merror[0m] [0m	private CodeableConcept type;    // Describes what kind of device that this[0m
+[0m[[31merror[0m] [0m	                            ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:13: = expected[0m
+[0m[[31merror[0m] [0m    private String manufacturer;     // The name of the manufacturer[0m
+[0m[[31merror[0m] [0m                               ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:14: = expected[0m
+[0m[[31merror[0m] [0m	private String model; 		     // The "model" - an identifier assigned by the manufacturer to identify the product by it's type. This number is shared by the all devices sold as the same type[0m
+[0m[[31merror[0m] [0m	                    ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:15: = expected[0m
+[0m[[31merror[0m] [0m	private String version; 		 // The version of the device, if the device has multiple releases under the same model, or if the device is software or carries firmware[0m
+[0m[[31merror[0m] [0m	                      ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:16: = expected[0m
+[0m[[31merror[0m] [0m	private Identity identity;	     // Universal Device Id fields[0m
+[0m[[31merror[0m] [0m	                         ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:19: = expected[0m
+[0m[[31merror[0m] [0m	private Resource owner;		     // The organization that is responsible for the provision and ongoing maintenance of the device[0m
+[0m[[31merror[0m] [0m	                      ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:20: = expected[0m
+[0m[[31merror[0m] [0m	private Identifier assignedId;   // Identifiers assigned to this device by various organizations (unless other specific fields exist for them)[0m
+[0m[[31merror[0m] [0m	                             ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:22: = expected[0m
+[0m[[31merror[0m] [0m	private Resource location;		 // The resource may be found in a literal location (i.e. GPS coordinates), a logical place (i.e. "in/with the patient"), or a coded location[0m
+[0m[[31merror[0m] [0m	                         ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:23: = expected[0m
+[0m[[31merror[0m] [0m	private Resource patient;		 // If the resource is affixed to a person[0m
+[0m[[31merror[0m] [0m	                        ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:24: = expected[0m
+[0m[[31merror[0m] [0m	private Contact contact;		 // Contact details for an organization or a particular human that is responsible for the device[0m
+[0m[[31merror[0m] [0m	                       ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:26: = expected[0m
+[0m[[31merror[0m] [0m	private Uri url;				 // A network address on which the device may be contacted directly[0m
+[0m[[31merror[0m] [0m	               ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:31: = expected[0m
+[0m[[31merror[0m] [0m		private String gtin; 		 //	The number assigned to this device by an authorised issuer of Device GITNs[0m
+[0m[[31merror[0m] [0m		                   ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:33: = expected[0m
+[0m[[31merror[0m] [0m		private String lot;			 //	Lot number of manufacture[0m
+[0m[[31merror[0m] [0m		                  ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:35: = expected[0m
+[0m[[31merror[0m] [0m		private String serialNumber; //	The serial number assigned by the organisation when the device was manufactured[0m
+[0m[[31merror[0m] [0m		                           ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Device.java:37: = expected[0m
+[0m[[31merror[0m] [0m		private Date expiry;		 //	Date of expiry of this device (if applicable)[0m
+[0m[[31merror[0m] [0m		                   ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/IdImpl.java:13: reached end of file while parsing[0m
+[0m[[31merror[0m] [0m	}[0m
+[0m[[31merror[0m] [0m	 ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Language.java:9: = expected[0m
+[0m[[31merror[0m] [0m	private CodeableConcept language; //The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case. E.g. "en" for English, or "en-US" for American English versus "en-EN" for England English[0m
+[0m[[31merror[0m] [0m	                                ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Language.java:10: = expected[0m
+[0m[[31merror[0m] [0m	private CodeableConcept mode; //A value representing the person's method of expression of this language. Examples: expressed spoken, expressed written, expressed signed, received spoken, received written, received signed[0m
+[0m[[31merror[0m] [0m	                            ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Language.java:11: = expected[0m
+[0m[[31merror[0m] [0m	private CodeableConcept proficiencyLevel; //A code that describes how well the language is spoken[0m
+[0m[[31merror[0m] [0m	                                        ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Language.java:12: = expected[0m
+[0m[[31merror[0m] [0m	private boolean preference; //Indicates whether or not the Person prefers this language (over other languages he masters up a certain level)[0m
+[0m[[31merror[0m] [0m	                          ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Narrative.java:8: = expected[0m
+[0m[[31merror[0m] [0m	private NarrativeStatus status; //The status of the narrative - whether it's entirely generated (from just the defined data or the extensions too), or whether a human authored it and it may contain additional data[0m
+[0m[[31merror[0m] [0m	                              ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Narrative.java:9: = expected[0m
+[0m[[31merror[0m] [0m	private String XhtmlNode div; //The actual narrative content, a stripped down version of XHTML[0m
+[0m[[31merror[0m] [0m	                         ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Narrative.java:10: = expected[0m
+[0m[[31merror[0m] [0m	private ArrayList image; //array of images referred to directly in the xhtml[0m
+[0m[[31merror[0m] [0m	                       ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Narrative.java:13: ',', '}', or ';' expected[0m
+[0m[[31merror[0m] [0m	    NarrativeStatusGenerated = 1, // The contents of the narrative are entirely generated from the structured data in the resource.[0m
+[0m[[31merror[0m] [0m	                             ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Narrative.java:13: '}' expected[0m
+[0m[[31merror[0m] [0m	    NarrativeStatusGenerated = 1, // The contents of the narrative are entirely generated from the structured data in the resource.[0m
+[0m[[31merror[0m] [0m	                              ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Narrative.java:14: <identifier> expected[0m
+[0m[[31merror[0m] [0m	    NarrativeStatusExtensions, //The contents of the narrative are entirely generated from the structured data in the resource and some of the content is generated from extensions[0m
+[0m[[31merror[0m] [0m	                             ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Narrative.java:14: ';' expected[0m
+[0m[[31merror[0m] [0m	    NarrativeStatusExtensions, //The contents of the narrative are entirely generated from the structured data in the resource and some of the content is generated from extensions[0m
+[0m[[31merror[0m] [0m	                              ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Narrative.java:15: illegal start of type[0m
+[0m[[31merror[0m] [0m	    NarrativeStatusAdditional, //The contents of the narrative contain additional information not found in the structured data[0m
+[0m[[31merror[0m] [0m	                             ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Narrative.java:17: = expected[0m
+[0m[[31merror[0m] [0m	}[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Patient.java:8: = expected[0m
+[0m[[31merror[0m] [0m	private Integer getResourceType; //override method. Returns integer of specified type, in this case Patient[0m
+[0m[[31merror[0m] [0m	                               ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Patient.java:9: = expected[0m
+[0m[[31merror[0m] [0m	private FHIRResourceDictionary patientDictionary;[0m
+[0m[[31merror[0m] [0m	                                                ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Patient.java:10: = expected[0m
+[0m[[31merror[0m] [0m	private ArrayList link; //THIS ARRAY IS FILLED WITH "ResourceReference" OBJECTS ONLY. A linked patient record is a record that concerns the same patient. Records are linked after it is realized that at least one was created in error.[0m
+[0m[[31merror[0m] [0m	                      ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Patient.java:11: = expected[0m
+[0m[[31merror[0m] [0m	private boolean active; //Whether the patient record is in use, or has been removed from active use[0m
+[0m[[31merror[0m] [0m	                      ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Patient.java:12: = expected[0m
+[0m[[31merror[0m] [0m	private ArrayList identifier; //THIS ARRAY IS FILLED WITH "HumanId" OBJECTS ONLY.. An identifier that applies to this person as a patient[0m
+[0m[[31merror[0m] [0m	                            ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Patient.java:13: = expected[0m
+[0m[[31merror[0m] [0m	private Demographics details; //Patient Demographic details[0m
+[0m[[31merror[0m] [0m	                            ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Patient.java:14: = expected[0m
+[0m[[31merror[0m] [0m	private ResourceReference provider; //The provider for whom this is a patient record[0m
+[0m[[31merror[0m] [0m	                                  ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Patient.java:15: = expected[0m
+[0m[[31merror[0m] [0m	private CodeableConcept diet; //Dietary restrictions for the patient[0m
+[0m[[31merror[0m] [0m	                            ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Patient.java:16: = expected[0m
+[0m[[31merror[0m] [0m	private CodeableConcept confidentiality; //Confidentiality of the patient records[0m
+[0m[[31merror[0m] [0m	                                       ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Patient.java:17: = expected[0m
+[0m[[31merror[0m] [0m	private CodeableConcept recordLocation; //The location of the paper record for the patient, if there is one[0m
+[0m[[31merror[0m] [0m	                                      ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Period.java:8: = expected[0m
+[0m[[31merror[0m] [0m	private Date start; //The start of the period. The boundary is inclusive.[0m
+[0m[[31merror[0m] [0m	                  ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Period.java:9: = expected[0m
+[0m[[31merror[0m] [0m	private Date end; //The end of the period. If the high is missing, it means that the period is ongoing[0m
+[0m[[31merror[0m] [0m	                ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Resource.java:9: = expected[0m
+[0m[[31merror[0m] [0m	private ArrayList extensions; //an array of extension objects[0m
+[0m[[31merror[0m] [0m	                            ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Resource.java:10: = expected[0m
+[0m[[31merror[0m] [0m	private Narrative text; //contents of resource[0m
+[0m[[31merror[0m] [0m	                      ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/Resource.java:11: = expected[0m
+[0m[[31merror[0m] [0m	private ResourceType resourceType; //type designation of resource[0m
+[0m[[31merror[0m] [0m	                                 ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/models/ResourceImpl.java:58: reached end of file while parsing[0m
+[0m[[31merror[0m] [0m  }[0m
+[0m[[31merror[0m] [0m   ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Code.java:4: = expected[0m
+[0m[[31merror[0m] [0m	private String codeText;[0m
+[0m[[31merror[0m] [0m	                       ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Coding.java:5: = expected[0m
+[0m[[31merror[0m] [0m	private Uri system; //The identification of the system that defines the meaning of the symbol in the code. Can be a simple list of enumerations, a list of codes with meanings or all the way to a complex semantic web such as SNOMED-CT, whether classification, terminology, or ontology[0m
+[0m[[31merror[0m] [0m	                  ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Coding.java:6: = expected[0m
+[0m[[31merror[0m] [0m	private Code code; //A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system[0m
+[0m[[31merror[0m] [0m	                 ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Coding.java:7: = expected[0m
+[0m[[31merror[0m] [0m	private String display; //A representation of the meaning of the code in the system, following the rules laid out by the system.[0m
+[0m[[31merror[0m] [0m	                      ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/CodingConcept.java:5: = expected[0m
+[0m[[31merror[0m] [0m	private ArrayList coding; //A reference to a code defined by a terminology system. Contains "coding" objects only.[0m
+[0m[[31merror[0m] [0m	                        ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/CodingConcept.java:6: = expected[0m
+[0m[[31merror[0m] [0m	private String text; //A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user or concept[0m
+[0m[[31merror[0m] [0m	                   ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/CodingConcept.java:7: = expected[0m
+[0m[[31merror[0m] [0m	private String primary; //Indicates which of the codes in the codings was chosen by a user, if one was chosen directly[0m
+[0m[[31merror[0m] [0m	                      ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/Element.java:4: = expected[0m
+[0m[[31merror[0m] [0m	private String xmlId;[0m
+[0m[[31merror[0m] [0m	                    ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/FHIRResourceDictionary.java:4: = expected[0m
+[0m[[31merror[0m] [0m	private Dictionary dataForResource; //distionary of resources[0m
+[0m[[31merror[0m] [0m	                                  ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/FHIRResourceDictionary.java:5: = expected[0m
+[0m[[31merror[0m] [0m	private String resourceName; //name of resource dictionary[0m
+[0m[[31merror[0m] [0m	                           ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/FHIRResourceDictionary.java:6: = expected[0m
+[0m[[31merror[0m] [0m	private String resourceType; //type of resource the dictionary itself is[0m
+[0m[[31merror[0m] [0m	                           ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanId.java:6: = expected[0m
+[0m[[31merror[0m] [0m	private IdentifierUse use; //Identifies the use for this identifier, if known[0m
+[0m[[31merror[0m] [0m	                         ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanId.java:7: = expected[0m
+[0m[[31merror[0m] [0m	private String label; //A label for the identifier that can be displayed to a human so they can recognise the identifier[0m
+[0m[[31merror[0m] [0m	                    ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanId.java:8: = expected[0m
+[0m[[31merror[0m] [0m	private Identifier identifier; //The identifier itself[0m
+[0m[[31merror[0m] [0m	                             ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanId.java:9: = expected[0m
+[0m[[31merror[0m] [0m	private Period period; //Time period during which identifier was valid for use[0m
+[0m[[31merror[0m] [0m	                     ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanId.java:10: = expected[0m
+[0m[[31merror[0m] [0m	private ResourceReference assigner; //Organisation that issued/manages the identifier[0m
+[0m[[31merror[0m] [0m	                                  ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java:6: = expected[0m
+[0m[[31merror[0m] [0m	private NameUse use; //Identifies the purpose for this name[0m
+[0m[[31merror[0m] [0m	                   ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java:7: = expected[0m
+[0m[[31merror[0m] [0m	private String text; //a full text representation of the name[0m
+[0m[[31merror[0m] [0m	                   ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java:8: = expected[0m
+[0m[[31merror[0m] [0m	private ArrayList family; //Family name, this is the name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father. Array of NSStrings[0m
+[0m[[31merror[0m] [0m	                        ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java:9: = expected[0m
+[0m[[31merror[0m] [0m	private ArrayList given; //Given name. NOTE: Not to be called "first name" since given names do not always come first. Array of NSStrings[0m
+[0m[[31merror[0m] [0m	                       ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java:10: = expected[0m
+[0m[[31merror[0m] [0m	private ArrayList prefix; //Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that comes at the start of the name. Array of NSStrings[0m
+[0m[[31merror[0m] [0m	                        ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java:11: = expected[0m
+[0m[[31merror[0m] [0m	private ArrayList suffix; //Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that comes at the end of the name. Array of NSStrings[0m
+[0m[[31merror[0m] [0m	                        ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java:12: = expected[0m
+[0m[[31merror[0m] [0m	private Period period; //Indicates the period of time when this name was valid for the named person.[0m
+[0m[[31merror[0m] [0m	                     ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java:15: ',', '}', or ';' expected[0m
+[0m[[31merror[0m] [0m	    usual = 1, //Known as/conventional/the one you normally use[0m
+[0m[[31merror[0m] [0m	          ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java:15: '}' expected[0m
+[0m[[31merror[0m] [0m	    usual = 1, //Known as/conventional/the one you normally use[0m
+[0m[[31merror[0m] [0m	           ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java:16: <identifier> expected[0m
+[0m[[31merror[0m] [0m	    official, //The formal name as registered in an official (government) registry, but which name might not be commonly used. May be called "legal name".[0m
+[0m[[31merror[0m] [0m	            ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java:16: ';' expected[0m
+[0m[[31merror[0m] [0m	    official, //The formal name as registered in an official (government) registry, but which name might not be commonly used. May be called "legal name".[0m
+[0m[[31merror[0m] [0m	             ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java:17: illegal start of type[0m
+[0m[[31merror[0m] [0m	    temp, //A temporary name. A name valid time can provide more detailed information. This may also be used for temporary names assigned at birth or in emergency situations.[0m
+[0m[[31merror[0m] [0m	        ^[0m
+[0m[[31merror[0m] [0m/Users/502065961/Development/phmhealth/phm/phm_platform/src/main/java/resources/HumanName.java:18: = expected[0m
+[0m[[31merror[0m] [0m	    nickname, //A name that is used to address the person in an informal manner, but is not part of their formal or usual name[0m
+[0m[[31merror[0m] [0m	            ^[0m
+[0m[[31merror[0m] [0m100 errors[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 1[0m
+[0m[[31merror[0m] [0m(root/compile:[31mcompile[0m) javac returned nonzero exit code[0m

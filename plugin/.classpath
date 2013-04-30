@@ -1,0 +1,43 @@
+<classpath>
+  <classpathentry output="target/scala-2.10/classes" path="src/main/scala" kind="src"></classpathentry>
+  <classpathentry output="target/scala-2.10/classes" path="src/main/java" kind="src"></classpathentry>
+  <classpathentry output="target/scala-2.10/test-classes" path="src/test/scala" kind="src"></classpathentry>
+  <classpathentry output="target/scala-2.10/test-classes" path="src/test/java" kind="src"></classpathentry>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/play/play_2.10/2.1.0/jars/play_2.10.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/play/sbt-link/2.1.0/jars/sbt-link.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/org.javassist/javassist/3.16.1-GA/jars/javassist.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/play/play-exceptions/2.1.0/jars/play-exceptions.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/play/templates_2.10/2.1.0/jars/templates_2.10.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/com.github.scala-incubator.io/scala-io-file_2.10/0.4.2/jars/scala-io-file_2.10.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/com.github.scala-incubator.io/scala-io-core_2.10/0.4.2/jars/scala-io-core_2.10.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/com.jsuereth/scala-arm_2.10/1.3/jars/scala-arm_2.10.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/play/play-iteratees_2.10/2.1.0/jars/play-iteratees_2.10.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/org.scala-stm/scala-stm_2.10.0/0.6/jars/scala-stm_2.10.0.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/com.typesafe/config/1.0.0/bundles/config.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/io.netty/netty/3.5.9.Final/bundles/netty.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/org.slf4j/jul-to-slf4j/1.6.6/jars/jul-to-slf4j.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/org.slf4j/jcl-over-slf4j/1.6.6/jars/jcl-over-slf4j.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/ch.qos.logback/logback-core/1.0.7/jars/logback-core.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/ch.qos.logback/logback-classic/1.0.7/jars/logback-classic.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/com.typesafe.akka/akka-actor_2.10/2.1.0/bundles/akka-actor_2.10.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/com.typesafe.akka/akka-slf4j_2.10/2.1.0/bundles/akka-slf4j_2.10.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/org.slf4j/slf4j-api/1.7.2/jars/slf4j-api.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/joda-time/joda-time/2.1/jars/joda-time.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/org.joda/joda-convert/1.2/jars/joda-convert.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/org.apache.commons/commons-lang3/3.1/jars/commons-lang3.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/com.ning/async-http-client/1.7.6/jars/async-http-client.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/oauth.signpost/signpost-core/1.2.1.2/jars/signpost-core.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/commons-codec/commons-codec/1.3/jars/commons-codec.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/oauth.signpost/signpost-commonshttp4/1.2.1.2/jars/signpost-commonshttp4.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/commons-logging/commons-logging/1.1.1/jars/commons-logging.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/org.codehaus.jackson/jackson-core-asl/1.9.10/jars/jackson-core-asl.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/org.codehaus.jackson/jackson-mapper-asl/1.9.10/jars/jackson-mapper-asl.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/net.sf.ehcache/ehcache-core/2.6.0/jars/ehcache-core.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/javax.transaction/jta/1.1/jars/jta.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/502065961/Development/play/play-2.1.0/repository/local/org.scala-lang/scala-reflect/2.10.0/jars/scala-reflect.jar" kind="lib"></classpathentry>
+  <classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"></classpathentry>
+  <classpathentry path="bin" kind="output"></classpathentry>
+</classpath>
